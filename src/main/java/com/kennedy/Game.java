@@ -27,8 +27,9 @@ import java.util.Date;
  */
 @Entity
 public class Game extends PanacheEntity {
-    private Long id;
-    private String name;
-    private String typeOfGame;
-    private Date whenPlayed;
+    private String title;
+    private String platform;
+    private String genre;
+    private double personalRating;
+    private String status;
 }
